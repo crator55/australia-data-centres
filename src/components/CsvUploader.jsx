@@ -73,7 +73,7 @@ function CsvUploader({ onDataLoaded }) {
 
             company: row["Company"] || "",
 
-            facility: row["Facility"] || "",
+            facility: row["Facility Name"] || "",
 
             location: row["Location"] || "",
 
@@ -90,7 +90,7 @@ function CsvUploader({ onDataLoaded }) {
 
             notes:
               row[
-                "Notes/explanation of expansion and what is involved?"
+                "Notes/explanation of expansion and what is involved? "
               ] || ""
           });
         });
