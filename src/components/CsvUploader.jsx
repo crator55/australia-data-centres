@@ -80,7 +80,7 @@ function CsvUploader({ onDataLoaded }) {
             address: row["Address"] || "",
 
             powerCapacityMW:
-              row["Power capacity (IT Load)(MW)"] || "",
+              row["Power capacity (IT Load)(MW) (speculative)"] || "",
 
             latitude,
 
